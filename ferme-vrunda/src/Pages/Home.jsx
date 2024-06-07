@@ -24,6 +24,7 @@ import img21 from '../assets1/asset 13.jpg'
 import img22 from '../assets1/img11.svg'
 import img23 from '../assets1/asset 12.jpg'
 import img24 from '../assets1/asset 10.jpg'
+import Footer from '../componentes/Footer'
 
 
 const Home = () => {

@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'about-img':"url('/')"
+        'about-img':"url('/assets1/asset 31.jpg')",
+      },
+      fontSize:{
+        xxs:['10px', '14px']
       }
     },
   },

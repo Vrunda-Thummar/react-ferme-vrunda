@@ -12,7 +12,7 @@ const Navbar = () => {
                         <img className='size-6' src={img1} alt="" />
                     </div>
                     <img className='size-11 ml-4 mt-3' src={img2} alt="" />
-                
+
                     <div className='items-center flex justify-center ml-64 font-medium text-xs text-teal-900'>
                         <ul className='flex'>
                             <li>
@@ -22,7 +22,7 @@ const Navbar = () => {
                                 <Link className='ml-4' to="Newin">SHOP ONLINE</Link>
                             </li>
                             <li>
-                                <Link className='ml-4' to="">ABOUT</Link>
+                                <Link className='ml-4' to="About">ABOUT</Link>
                             </li>
                             <li>
                                 <Link className='ml-4' to="Produce">PRODUCE</Link>
@@ -36,9 +36,23 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='flex items-center ml-80'>
-                        <img className='size-4 ml-5' src="https://img.icons8.com/?size=100&id=16076&format=png&color=737373" alt="" />
-                        <img className='size-4 ml-5' src="https://img.icons8.com/?size=100&id=mj4zUKpD4IjJ&format=png&color=737373" alt="" />
-                        <img className='size-4 ml-5' src="https://img.icons8.com/?size=100&id=82712&format=png&color=737373" alt="" />
+                        <ul className='flex'>
+                            <li>
+                                <Link to="Wishlist">
+                                    <img className='size-4 ml-5' src="https://img.icons8.com/?size=100&id=16076&format=png&color=737373" alt="" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="Login">
+                                    <img className='size-4 ml-5' src="https://img.icons8.com/?size=100&id=mj4zUKpD4IjJ&format=png&color=737373" alt="" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="">
+                                    <img className='size-4 ml-5' src="https://img.icons8.com/?size=100&id=82712&format=png&color=737373" alt="" />
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
                     <div>
                         <img src="" alt="" />
